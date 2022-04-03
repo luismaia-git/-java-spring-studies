@@ -1,10 +1,10 @@
 package initial.project.aplicacao;
 
-import org.springframework.context.annotation.Primary;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
 @Component
-@Primary
+@Qualifier("classeX")
 public class ClasseX implements InterfaceB {
 
 	@Override
