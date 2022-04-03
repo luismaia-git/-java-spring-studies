@@ -1,4 +1,4 @@
-package initial.project.aplicacao;
+package initial.project.aplicacao.basico;
 
 public interface InterfaceB {
 	
